@@ -1,0 +1,14 @@
+/**
+ * @file
+ * Glonal css variables to be used for uniform styling.
+ */
+
+:root {
+  --item-highlight: var(--chakra-colors-green-subtle);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --item-highlight: var(--chakra-colors-green-muted);
+  }
+}
