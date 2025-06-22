@@ -5,7 +5,7 @@ import { Container, Stack } from "@chakra-ui/react";
  */
 export const Footer = ({ children }: { children: React.ReactNode }) => {
     return (
-        <Container as="footer" height={16} bg="gray.50">
+        <Container as="footer" height={16} bg="gray.50" w="full" minW="100%">
             <Stack direction="row" justify="center" align="center" height="100%">
                 {children}
             </Stack>

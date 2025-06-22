@@ -51,7 +51,7 @@ export const CharacterModal = ({
             maxWidth="2xl"
         >
             <Grid templateColumns={{ base: "1fr", md: "300px 1fr" }} gap={6}>
-                <Stack gap={4}>
+                <Stack gap={4} alignItems="center">
                     <Image
                         src={character.image || PLACEHOLDER_IMAGE_URL}
                         alt={character.name}
@@ -60,7 +60,6 @@ export const CharacterModal = ({
                         style={{
                             borderRadius: ".3rem",
                         }}
-
                         objectFit="cover"
                         onError={(e) => {
                             const target = e.target as HTMLImageElement;

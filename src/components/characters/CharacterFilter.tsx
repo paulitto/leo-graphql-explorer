@@ -41,7 +41,7 @@ export const CharacterFilter = ({
         endElement={
           nameFilter && (
             <IconButton
-              size={"sm"}
+              size="sm"
               variant="ghost"
               aria-label="Clear Filter"
               onClick={handleReset}

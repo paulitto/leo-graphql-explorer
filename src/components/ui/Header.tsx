@@ -34,7 +34,7 @@ export const Header = ({ children }: HeaderProps) => {
     }
     return (
         <>
-            <Container as="header" height={16} bg="gray.50">
+            <Container as="header" height={16} bg="gray.50" w="full" minW="100%">
                 <Stack direction="row" justify="space-between" align="center" height="100%">
                     <Link href="/">
                         <Image
