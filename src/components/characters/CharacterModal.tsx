@@ -7,7 +7,7 @@ import {
 } from '@chakra-ui/react';
 import Image from 'next/image'
 import { Modal } from '@/components/ui/Modal';
-import { PLACEHOLDER_IMAGE_URL } from '@/consts';
+import { PLACEHOLDER_IMAGE_URL, PLACEHOLDER_IMAGE_BASE64 } from '@/consts';
 
 type CharacterModalProps = {
     character: Character;
@@ -55,6 +55,7 @@ export const CharacterModal = ({
                     <Image
                         src={character.image || PLACEHOLDER_IMAGE_URL}
                         alt={character.name}
+                        placeholder={PLACEHOLDER_IMAGE_BASE64}
                         width={300}
                         height={300}
                         style={{

@@ -2,7 +2,7 @@
 Next.js + ChakraUI example app to present data fetched through GraphQL
 See features below and full requirements the challenge brief below
 latest deployed version can be found here:
-https://rick-and-morty-explorer-21ho24neg-paulittos-projects.vercel.app/
+https://paulitto-rick-and-morty-explorer.vercel.app
 
 ## Features
 - User registration form, gating of content until form is completed
